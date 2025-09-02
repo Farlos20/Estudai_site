@@ -1,0 +1,100 @@
+body {
+            background-color: #e5e2db;
+        }
+
+.center {
+    text-align: center;
+
+}
+
+p,h1 {
+    color: #000000;
+}
+
+.cor {
+    color: #000000;
+}
+
+.img {
+    height: 300px;
+    background-color: aqua;
+    background-image: url('/static/bossa.jpg');
+    background-size:contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.back {
+    background-color: #7a8bc0;
+    
+    
+    width: 1400px;
+    margin: 25px auto;
+    text-align: center;
+    height: 90;
+    
+
+    display: flex;          /* Faz os textos ficarem lado a lado */
+     /* Espaço entre eles */
+    align-items:normal;
+    ;
+    
+}
+
+.estuda{
+    font-size: 90px;
+    
+    margin-left: 50px;
+    margin: 0 0 10px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: bold; 
+    color: #25282c;
+    
+}
+
+.revisao{
+    font-size: 40px;
+    max-width: 600px;
+    margin: 0 0 0 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #25282c;
+}
+
+
+.logo { margin-left: 40px; font-size: 30px;  font-family: 'Montserrat', sans-serif; }
+.login { margin-left: 130px; font-size: 20px; font-family: 'Montserrat', sans-serif;}
+.registrar { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif; }
+.como { margin-left: 100px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
+.conteudos { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif;}
+.suporte { margin-left: 250px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
+
+.botao {
+    background-color: #7a8bc0;
+    
+    border-radius: 12px;
+    width: 230px;
+    margin-left: 60px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #25282c;
+    font-weight: 900;
+  
+}
+
+.botoes-container {
+
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 20px;               /* espaço entre os botões */
+    margin-top: 30px;        /* distância do título acima */
+    
+}
