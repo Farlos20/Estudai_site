@@ -13,3 +13,7 @@ if __name__ == "__main__":
 #static/ → CSS, JS, imagens
 
 #viwer.py → define as rotas com @app.route(...)
+
+#git add .
+#git commit -m "Descrição da alteração"
+#git push

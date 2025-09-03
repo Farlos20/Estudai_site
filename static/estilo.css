@@ -1,6 +1,7 @@
 body {
-            background-color: #e5e2db;
-        }
+    margin: 0;
+    background: linear-gradient(to right, #ffffff, #777676);
+}
 
 .center {
     text-align: center;
@@ -18,7 +19,8 @@ p,h1 {
 .img {
     height: 300px;
     background-color: aqua;
-    background-image: url('/static/bossa.jpg');
+    background-image: url('/static/2.png');
+    background-image: url('/static/3.png');
     background-size:contain; 
     background-repeat: no-repeat;
     background-position: center;
@@ -27,8 +29,8 @@ p,h1 {
 
 
 .back {
-    background-color: #7a8bc0;
-    
+    background-color: #bd7e3e;
+     
     
     width: 1400px;
     margin: 25px auto;
@@ -49,7 +51,7 @@ p,h1 {
     margin-left: 50px;
     margin: 0 0 10px 50px;
     font-family: 'Montserrat', sans-serif;
-    font-style: italic;
+    
     font-weight: bold; 
     color: #25282c;
     
@@ -73,8 +75,8 @@ p,h1 {
 .suporte { margin-left: 250px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
 
 .botao {
-    background-color: #7a8bc0;
-    
+    background-color: #bd7e3e;
+
     border-radius: 12px;
     width: 230px;
     margin-left: 60px;
@@ -84,6 +86,7 @@ p,h1 {
     height: 50px;
     padding: 10px;
     text-align: center;
+    line-height: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #25282c;
@@ -92,7 +95,7 @@ p,h1 {
 }
 
 .botoes-container {
-
+    
     justify-content: center; /* centraliza horizontalmente */
     gap: 20px;               /* espaço entre os botões */
     margin-top: 30px;        /* distância do título acima */
