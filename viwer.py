@@ -8,3 +8,6 @@ def homepage():
 @app.route("/blog")
 def blog():
     return render_template("blog.html")
+@app.route("/conteudos")
+def conteudos():
+    return render_template("btn_conteudos.html")

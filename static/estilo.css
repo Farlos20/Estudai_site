@@ -3,6 +3,8 @@ body {
     background: linear-gradient(to right, #ffffff, #777676);
 }
 
+
+
 .center {
     text-align: center;
 
@@ -16,15 +18,7 @@ p,h1 {
     color: #000000;
 }
 
-.img {
-    height: 300px;
-    background-color: aqua;
-    background-image: url('/static/2.png');
-    background-image: url('/static/3.png');
-    background-size:contain; 
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
 
 
@@ -100,4 +94,121 @@ p,h1 {
     gap: 20px;               /* espaço entre os botões */
     margin-top: 30px;        /* distância do título acima */
     
+}
+
+
+
+.img {
+    position: relative;
+    margin-left: 680px; /* joga pra direita */
+    margin-top: -500px; /* sobe pra alinhar com o texto */
+    width: 760px;
+    height: 500px;
+}
+
+.foto {
+    position: absolute;
+    width: 380px;  /* tamanho fixo */
+    height: 280px;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    object-fit: cover; /* garante que a imagem se ajusta sem distorcer */
+    
+}
+
+/* cada imagem em um ponto diferente */
+.f4{
+  width: 430px; height: 420px;
+  top: -10%; left: 0;
+  z-index: 1;
+}
+
+/* embaixo, mais larga (escrevendo) */
+.f2{
+  width: 600px; height: 300px;
+  left: 100px; bottom: 0;
+  z-index: 2;
+}
+
+/* frente, topo à direita (blusa amarela) */
+.f3{
+  width: 320px; height: 230px;
+  top: -20px; left: 300px;   /* joga pra direita */
+  z-index: 3;
+}
+
+a.contend {
+    line-height: 2;
+     margin: 200px auto 10px auto;
+    text-align: center;
+    height: 50px;
+    width: 230px;
+    margin-left: 60px;
+    background-color: #bd7e3e;  /* cor do botão */
+    color: #25282c;              /* cor do texto */
+    padding: 10px;
+    padding-bottom: 20px;        /* espaço interno -> aumenta área clicável */
+    border-radius: 8px;        /* bordas arredondadas */
+    text-decoration: none;     /* tira sublinhado do link */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;     /* deixa o <a> parecer botão */
+    transition: transform 0.2s ease, color 0.2s ease; /* animação suave */
+    font-weight: 900;
+}
+
+a.contend:hover {
+    
+    transform: scale(1.2);
+    color: #6ab9be; 
+    
+}
+
+.materias {
+    padding-left: 620px;
+    font-style: normal;
+    margin-top: -60px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.estudai {
+    padding-left: 550px ;
+    font-size: 80px;
+    top: -10px auto;
+    margin-top: -20px;
+    font-weight:900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.botoes-containerC {
+    display: flex;
+    justify-content: flex-start; /* centraliza horizontalmente */
+    gap: 10px;               /* espaço entre os botões */
+    margin-top: 30px;        /* distância do título acima */
+    
+}
+
+.botaoANO {
+    background-color: #bd7e3e;
+
+    border-radius: 8px;
+    width: 280px;
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 35px;
+    padding: 7px;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #25282c;
+    font-weight: 700;
+  
 }
