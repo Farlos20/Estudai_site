@@ -1,214 +1,332 @@
-body {
-    margin: 0;
-    background: linear-gradient(to right, #ffffff, #777676);
-}
+    body {
+        margin: 0;
+        background: linear-gradient(to right, #ffffff, #777676);
+    }
 
 
 
-.center {
+    .center {
+        text-align: center;
+
+    }
+
+    p,h1 {
+        color: #000000;
+    }
+
+    .cor {
+        color: #000000;
+    }
+
+
+
+
+
+    .back {
+        background-color: #bd7e3e;
+        
+        
+        max-width: 1800px;
+        margin: 25px auto;
+        text-align: center;
+        height: 90;
+        
+
+        display: flex;          /* Faz os textos ficarem lado a lado */
+        /* Espaço entre eles */
+        
+        align-items: center;
+        ;
+        
+    }
+
+    .estuda{
+        font-size: 90px;
+        
+        margin-left: 50px;
+        margin: 0 0 10px 50px;
+        font-family: 'Montserrat', sans-serif;
+        
+        font-weight: bold; 
+        color: #25282c;
+        
+    }
+
+    .revisao{
+        font-size: 40px;
+        max-width: 600px;
+        margin: 0 0 0 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        color: #25282c;
+    }
+
+
+    .logo { margin-left: 40px; font-size: 30px;  font-family: 'Montserrat', sans-serif;}
+    .login { margin-left: 130px; font-size: 20px; font-family: 'Montserrat', sans-serif;}
+    .registrar { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif; }
+    .como { margin-left: 100px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
+    .conteudos { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif;}
+    .suporte { margin-left: 250px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
+
+    .botao {
+        background-color: #bd7e3e;
+
+        border-radius: 12px;
+        width: 230px;
+        margin-left: 60px;
+        margin-top: 200px;
+        margin-bottom: 10px;
+        text-align: center;
+        height: 50px;
+        padding: 10px;
+        text-align: center;
+        line-height: 2;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #25282c;
+        font-weight: 900;
+    
+    }
+
+    .botoes-container {
+        
+        justify-content: center; /* centraliza horizontalmente */
+        gap: 20px;               /* espaço entre os botões */
+        margin-top: 30px;        /* distância do título acima */
+        
+    }
+
+
+
+    .img {
+        position: relative;
+        margin-left: 680px; /* joga pra direita */
+        margin-top: -500px; /* sobe pra alinhar com o texto */
+        width: 760px;
+        height: 500px;
+    }
+
+    .foto {
+        position: absolute;
+        width: 380px;  /* tamanho fixo */
+        height: 280px;
+        border-radius: 10px;
+        border: 5px solid black;
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        object-fit: cover; /* garante que a imagem se ajusta sem distorcer */
+        
+    }
+
+    /* cada imagem em um ponto diferente */
+    .f4{
+    width: 430px; height: 420px;
+    top: -10%; left: 0;
+    z-index: 1;
+    }
+
+    /* embaixo, mais larga (escrevendo) */
+    .f2{
+    width: 600px; height: 300px;
+    left: 100px; bottom: 0;
+    z-index: 2;
+    }
+
+    /* frente, topo à direita (blusa amarela) */
+    .f3{
+    width: 320px; height: 230px;
+    top: -20px; left: 300px;   /* joga pra direita */
+    z-index: 3;
+    }
+
+    a.contend {
+        line-height: 2;
+        margin: 200px auto 10px auto;
+        text-align: center;
+        height: 50px;
+        width: 230px;
+        margin-left: 60px;
+        background-color: #bd7e3e;  /* cor do botão */
+        color: #25282c;              /* cor do texto */
+        padding: 10px;
+        padding-bottom: 20px;        /* espaço interno -> aumenta área clicável */
+        border-radius: 8px;        /* bordas arredondadas */
+        text-decoration: none;     /* tira sublinhado do link */
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        display: inline-block;     /* deixa o <a> parecer botão */
+        transition: transform 0.2s ease, color 0.2s ease; /* animação suave */
+        font-weight: 900;
+    }
+
+    a.contend:hover {
+        
+        transform: scale(1.2);
+        color: #6ab9be; 
+        
+    }
+
+    .materias {
+        padding-left: 620px;
+        font-style: normal;
+        margin-top: -60px;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .estudai {
+        padding-left: 550px ;
+        font-size: 80px;
+        top: -10px auto;
+        margin-top: -20px;
+        font-weight:900;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .botoes-containerC {
+        display: flex;
+        justify-content: flex-start; /* centraliza horizontalmente */
+        gap: 20px;               /* espaço entre os botões */
+        margin-top: 30px;        /* distância do título acima */
+        
+    }
+    
+
+
+    .botaoANO {
+        background-color: #bd7e3e;
+
+        border-radius: 8px;
+        width: 280px;
+        margin-left: 270px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+        height: 35px;
+        padding: 7px;
+        text-align: center;
+        line-height: 2;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #25282c;
+        font-weight: 700;
+    
+    }
+
+    .botaoANO:hover {
+        transform: scale(1.2);
+        color: #6ab9be;
+        transition: transform 0.3s ease, color 0.4s ease; 
+    }
+
+    a.botaoMateria {
+    display: inline-block;
     text-align: center;
-
-}
-
-p,h1 {
-    color: #000000;
-}
-
-.cor {
-    color: #000000;
-}
-
-
-
-
-
-.back {
     background-color: #bd7e3e;
-     
-    
-    width: 1400px;
-    margin: 25px auto;
-    text-align: center;
-    height: 90;
-    
-
-    display: flex;          /* Faz os textos ficarem lado a lado */
-     /* Espaço entre eles */
-    align-items:normal;
-    ;
-    
-}
-
-.estuda{
-    font-size: 90px;
-    
-    margin-left: 50px;
-    margin: 0 0 10px 50px;
-    font-family: 'Montserrat', sans-serif;
-    
-    font-weight: bold; 
     color: #25282c;
-    
-}
-
-.revisao{
-    font-size: 40px;
-    max-width: 600px;
-    margin: 0 0 0 50px;
     font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    color: #25282c;
-}
-
-
-.logo { margin-left: 40px; font-size: 30px;  font-family: 'Montserrat', sans-serif; }
-.login { margin-left: 130px; font-size: 20px; font-family: 'Montserrat', sans-serif;}
-.registrar { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif; }
-.como { margin-left: 100px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
-.conteudos { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif;}
-.suporte { margin-left: 250px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
-
-.botao {
-    background-color: #bd7e3e;
-
-    border-radius: 12px;
-    width: 230px;
-    margin-left: 60px;
-    margin-top: 200px;
-    margin-bottom: 10px;
-    text-align: center;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
-    line-height: 2;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: #25282c;
+    font-size: 22px;
     font-weight: 900;
-  
-}
-
-.botoes-container {
-    
-    justify-content: center; /* centraliza horizontalmente */
-    gap: 20px;               /* espaço entre os botões */
-    margin-top: 30px;        /* distância do título acima */
-    
-}
-
-
-
-.img {
-    position: relative;
-    margin-left: 680px; /* joga pra direita */
-    margin-top: -500px; /* sobe pra alinhar com o texto */
-    width: 760px;
-    height: 500px;
-}
-
-.foto {
-    position: absolute;
-    width: 380px;  /* tamanho fixo */
-    height: 280px;
+    text-decoration: none;
     border-radius: 10px;
-    border: 5px solid black;
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-    object-fit: cover; /* garante que a imagem se ajusta sem distorcer */
-    
+    width: 240px;
+    height: 55px;
+    line-height: 55px; /* centraliza o texto */
+    margin: 10px;
+    transition: transform 0.2s ease, color 0.2s ease, background-color 0.3s ease;
 }
 
-/* cada imagem em um ponto diferente */
-.f4{
-  width: 430px; height: 420px;
-  top: -10%; left: 0;
-  z-index: 1;
-}
-
-/* embaixo, mais larga (escrevendo) */
-.f2{
-  width: 600px; height: 300px;
-  left: 100px; bottom: 0;
-  z-index: 2;
-}
-
-/* frente, topo à direita (blusa amarela) */
-.f3{
-  width: 320px; height: 230px;
-  top: -20px; left: 300px;   /* joga pra direita */
-  z-index: 3;
-}
-
-a.contend {
-    line-height: 2;
-     margin: 200px auto 10px auto;
-    text-align: center;
-    height: 50px;
-    width: 230px;
-    margin-left: 60px;
-    background-color: #bd7e3e;  /* cor do botão */
-    color: #25282c;              /* cor do texto */
-    padding: 10px;
-    padding-bottom: 20px;        /* espaço interno -> aumenta área clicável */
-    border-radius: 8px;        /* bordas arredondadas */
-    text-decoration: none;     /* tira sublinhado do link */
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    display: inline-block;     /* deixa o <a> parecer botão */
-    transition: transform 0.2s ease, color 0.2s ease; /* animação suave */
-    font-weight: 900;
-}
-
-a.contend:hover {
-    
-    transform: scale(1.2);
-    color: #6ab9be; 
-    
-}
-
-.materias {
-    padding-left: 620px;
-    font-style: normal;
-    margin-top: -60px;
-    font-size: 30px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.estudai {
-    padding-left: 550px ;
-    font-size: 80px;
-    top: -10px auto;
-    margin-top: -20px;
-    font-weight:900;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-.botoes-containerC {
-    display: flex;
-    justify-content: flex-start; /* centraliza horizontalmente */
-    gap: 10px;               /* espaço entre os botões */
-    margin-top: 30px;        /* distância do título acima */
-    
-}
-
-.botaoANO {
+a.botaoMateria:hover {
+    transform: scale(1.1);
+    color: #6ab9be;
     background-color: #bd7e3e;
-
-    border-radius: 8px;
-    width: 280px;
-    margin-left: 270px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    text-align: center;
-    height: 35px;
-    padding: 7px;
-    text-align: center;
-    line-height: 2;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: #25282c;
-    font-weight: 700;
-  
 }
+
+/* Container de navegação superior */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f3ed;
+    border-bottom: 2px solid #53978c;
+    padding: 10px 20px;
+}
+
+.logo-brand {
+    font-weight: bold;
+    color: #000000;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    font-weight: normal;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #555;
+    margin-left: 100px;
+}
+
+/* Container dos botões */
+.subject-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos botões */
+.subject-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #bd7e3e;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    width: 150px;
+}
+
+.subject-button:hover {
+    background-color: #a67138;
+}
+
