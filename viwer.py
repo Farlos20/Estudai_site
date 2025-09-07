@@ -33,3 +33,34 @@ def ed_fisica_1():
 def artes_1():
     return render_template("artes_1ano.html")
 
+@app.route("/Matematica_1Ano")
+def mat_1():
+    return render_template("mat_1ano.html")
+
+@app.route("/Fisica_1Ano")
+def Fisica_1():
+    return render_template("fisica_1ano.html")
+
+@app.route("/Biologia_1Ano")
+def Biologia_1():
+    return render_template("biologia_1ano.html")
+
+@app.route("/Quimica_1Ano")
+def Quimica_1():
+    return render_template("quimica_1ano.html")
+
+@app.route("/Historia_1Ano")
+def Historia_1():
+    return render_template("historia_1ano.html")
+
+@app.route("/Geografia_1Ano")
+def Geografia_1():
+    return render_template("geografia_1ano.html")
+
+@app.route("/Sociologia_1Ano")
+def Sociologia_1():
+    return render_template("sociologia_1ano.html")
+
+@app.route("/Filosofia_1Ano")
+def Filosofia_1():
+    return render_template("filosofia_1ano.html")
