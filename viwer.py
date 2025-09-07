@@ -25,3 +25,11 @@ def portugues_1():
 def ingles_1():
     return render_template("ingles_1ano.html")
 
+@app.route("/Educação_fisica_1Ano")
+def ed_fisica_1():
+    return render_template("ed_fisica_1ano.html")
+
+@app.route("/Artes_1Ano")
+def artes_1():
+    return render_template("artes_1ano.html")
+
