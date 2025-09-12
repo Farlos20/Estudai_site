@@ -1,228 +1,229 @@
-    body {
-        margin: 0;
-        background: linear-gradient(to right, #ffffff, #777676);
-    }
 
+body {
+    margin: 0;
+    background: linear-gradient(to right, #ffffff, #777676);
+}
 
+.center {
+    text-align: center;
+}
 
-    .center {
-        text-align: center;
+p, h1 {
+    color: #000000;
+}
 
-    }
+.cor {
+    color: #000000;
+}
 
-    p,h1 {
-        color: #000000;
-    }
+.back {
+    background-color: #bd7e3e;
+    max-width: 1800px;
+    margin: 25px auto;
+    text-align: center;
+    height: 90;
+    display: flex;
+    align-items: center;
+}
 
-    .cor {
-        color: #000000;
-    }
+.estuda {
+    font-size: 90px;
+    margin-left: 50px;
+    margin: 0 0 10px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25282c;
+}
 
+.revisao {
+    font-size: 40px;
+    max-width: 600px;
+    margin: 0 0 0 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #25282c;
+}
 
+.logo {
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #000;
+}
 
+.login {
+    margin-left: 130px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.registrar {
+    margin-left: 130px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .back {
-        background-color: #bd7e3e;
-        
-        
-        max-width: 1800px;
-        margin: 25px auto;
-        text-align: center;
-        height: 90;
-        
+.como {
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 
-        display: flex;          /* Faz os textos ficarem lado a lado */
-        /* Espaço entre eles */
-        
-        align-items: center;
-        ;
-        
-    }
+.conteudos {
+    margin-left: 130px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .estuda{
-        font-size: 90px;
-        
-        margin-left: 50px;
-        margin: 0 0 10px 50px;
-        font-family: 'Montserrat', sans-serif;
-        
-        font-weight: bold; 
-        color: #25282c;
-        
-    }
+.suporte {
+    margin-left: 250px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .revisao{
-        font-size: 40px;
-        max-width: 600px;
-        margin: 0 0 0 50px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: italic;
-        color: #25282c;
-    }
+.botao {
+    background-color: #bd7e3e;
+    border-radius: 12px;
+    width: 230px;
+    margin-left: 60px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #25282c;
+    font-weight: 900;
+}
 
-    
-    .logo { margin-left: 40px; font-size: 30px;  font-family: 'Montserrat', sans-serif;text-decoration: none;color: #000;}
-    .login { margin-left: 130px; font-size: 20px; font-family: 'Montserrat', sans-serif;}
-    .registrar { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif; }
-    .como { margin-left: 100px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
-    .conteudos { margin-left: 130px;font-size: 20px;font-family: 'Montserrat', sans-serif;}
-    .suporte { margin-left: 250px; font-size: 20px;font-family: 'Montserrat', sans-serif;}
+.botoes-container {
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
 
-    .botao {
-        background-color: #bd7e3e;
+.img {
+    position: relative;
+    margin-left: 680px;
+    margin-top: -500px;
+    width: 760px;
+    height: 500px;
+}
 
-        border-radius: 12px;
-        width: 230px;
-        margin-left: 60px;
-        margin-top: 200px;
-        margin-bottom: 10px;
-        text-align: center;
-        height: 50px;
-        padding: 10px;
-        text-align: center;
-        line-height: 2;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: #25282c;
-        font-weight: 900;
-    
-    }
+.foto {
+    position: absolute;
+    width: 380px;
+    height: 280px;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    object-fit: cover;
+}
 
-    .botoes-container {
-        
-        justify-content: center; /* centraliza horizontalmente */
-        gap: 20px;               /* espaço entre os botões */
-        margin-top: 30px;        /* distância do título acima */
-        
-    }
-
-
-
-    .img {
-        position: relative;
-        margin-left: 680px; /* joga pra direita */
-        margin-top: -500px; /* sobe pra alinhar com o texto */
-        width: 760px;
-        height: 500px;
-    }
-
-    .foto {
-        position: absolute;
-        width: 380px;  /* tamanho fixo */
-        height: 280px;
-        border-radius: 10px;
-        border: 5px solid black;
-        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-        object-fit: cover; /* garante que a imagem se ajusta sem distorcer */
-        
-    }
-
-    /* cada imagem em um ponto diferente */
-    .f4{
-    width: 430px; height: 420px;
-    top: -10%; left: 0;
+.f4 {
+    width: 430px;
+    height: 420px;
+    top: -10%;
+    left: 0;
     z-index: 1;
-    }
+}
 
-    /* embaixo, mais larga (escrevendo) */
-    .f2{
-    width: 600px; height: 300px;
-    left: 100px; bottom: 0;
+.f2 {
+    width: 600px;
+    height: 300px;
+    left: 100px;
+    bottom: 0;
     z-index: 2;
-    }
+}
 
-    /* frente, topo à direita (blusa amarela) */
-    .f3{
-    width: 320px; height: 230px;
-    top: -20px; left: 300px;   /* joga pra direita */
+.f3 {
+    width: 320px;
+    height: 230px;
+    top: -20px;
+    left: 300px;
     z-index: 3;
-    }
+}
 
-    a.contend {
-        line-height: 2;
-        margin: 200px auto 10px auto;
-        text-align: center;
-        height: 50px;
-        width: 230px;
-        margin-left: 60px;
-        background-color: #bd7e3e;  /* cor do botão */
-        color: #25282c;              /* cor do texto */
-        padding: 10px;
-        padding-bottom: 20px;        /* espaço interno -> aumenta área clicável */
-        border-radius: 8px;        /* bordas arredondadas */
-        text-decoration: none;     /* tira sublinhado do link */
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
-        font-weight: bold;
-        display: inline-block;     /* deixa o <a> parecer botão */
-        transition: transform 0.2s ease, color 0.2s ease; /* animação suave */
-        font-weight: 900;
-    }
+a.contend {
+    line-height: 2;
+    margin: 200px auto 10px auto;
+    text-align: center;
+    height: 50px;
+    width: 230px;
+    margin-left: 60px;
+    background-color: #bd7e3e;
+    color: #25282c;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+    font-weight: 900;
+}
 
-    a.contend:hover {
-        
-        transform: scale(1.2);
-        color: #6ab9be; 
-        
-    }
+a.contend:hover {
+    transform: scale(1.2);
+    color: #6ab9be;
+}
 
-    .materias {
-        padding-left: 620px;
-        font-style: normal;
-        margin-top: -60px;
-        font-size: 30px;
-        font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-    }
+.materias {
+    padding-left: 620px;
+    font-style: normal;
+    margin-top: -60px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .estudai {
-        padding-left: 550px ;
-        font-size: 80px;
-        top: -10px auto;
-        margin-top: -20px;
-        font-weight:900;
-        font-family: 'Montserrat', sans-serif;
-    }
+.estudai {
+    padding-left: 550px;
+    font-size: 80px;
+    top: -10px auto;
+    margin-top: -20px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.botoes-containerC {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 30px;
+}
 
-    .botoes-containerC {
-        display: flex;
-        justify-content: flex-start; /* centraliza horizontalmente */
-        gap: 20px;               /* espaço entre os botões */
-        margin-top: 30px;        /* distância do título acima */
-        
-    }
-    
+.botaoANO {
+    background-color: #bd7e3e;
+    border-radius: 8px;
+    width: 280px;
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 35px;
+    padding: 7px;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #25282c;
+    font-weight: 700;
+}
 
+.botaoANO:hover {
+    transform: scale(1.2);
+    color: #6ab9be;
+    transition: transform 0.3s ease, color 0.4s ease;
+}
 
-    .botaoANO {
-        background-color: #bd7e3e;
-
-        border-radius: 8px;
-        width: 280px;
-        margin-left: 270px;
-        margin-top: 50px;
-        margin-bottom: 10px;
-        text-align: center;
-        height: 35px;
-        padding: 7px;
-        text-align: center;
-        line-height: 2;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        color: #25282c;
-        font-weight: 700;
-    
-    }
-
-    .botaoANO:hover {
-        transform: scale(1.2);
-        color: #6ab9be;
-        transition: transform 0.3s ease, color 0.4s ease; 
-    }
-
-    a.botaoMateria {
+a.botaoMateria {
     display: inline-block;
     text-align: center;
     background-color: #bd7e3e;
@@ -234,7 +235,7 @@
     border-radius: 10px;
     width: 240px;
     height: 55px;
-    line-height: 55px; /* centraliza o texto */
+    line-height: 55px;
     margin: 10px;
     transition: transform 0.2s ease, color 0.2s ease, background-color 0.3s ease;
 }
@@ -245,7 +246,6 @@ a.botaoMateria:hover {
     background-color: #bd7e3e;
 }
 
-/* Container de navegação superior */
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -270,7 +270,6 @@ a.botaoMateria:hover {
     cursor: pointer;
 }
 
-/* Títulos */
 .main-title {
     font-size: 56px;
     font-weight: bold;
@@ -299,7 +298,6 @@ h3 {
     margin-left: 100px;
 }
 
-/* Container dos botões */
 .subject-buttons-container {
     display: flex;
     flex-wrap: wrap;
@@ -308,7 +306,6 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* Estilo dos botões */
 .subject-button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -351,22 +348,140 @@ h3 {
     flex-direction: column;
     justify-content: flex-start;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    
 }
-
-
 
 .flashcard h3 {
     font-size: 16px;
     font-weight: 900;
-    margin: 0 0 15px 0;   /* espaçamento embaixo */
-    text-align: center;   /* título centralizado */
+    margin: 0 0 15px 0;
+    text-align: center;
     color: #000000;
 }
 
 .flashcard p {
     font-size: 14px;
     line-height: 1.4;
-    text-align: justify;  /* deixa organizado como parágrafo */
+    text-align: justify;
     margin: 0;
+}
+
+/* Media Queries para responsividade */
+
+/* Telas de tablet (largura máxima de 1024px) */
+@media (max-width: 1024px) {
+    .estuda {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    .revisao {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .img {
+        /* A imagem pode ser escondida para priorizar o conteúdo em telas menores */
+        display: none;
+    }
+    .back {
+        /* Coloca os itens em coluna */
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    .logo, .login, .registrar, .como, .conteudos, .suporte {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .header-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-links {
+        margin-left: 10px;
+    }
+    .botao {
+        margin: 20px auto;
+    }
+    .materias, .estudai, h3 {
+        padding-left: 0;
+        text-align: center;
+    }
+    .botoes-containerC, .subject-buttons-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    a.botaoMateria, .subject-button {
+        width: 80%;
+    }
+    .flashcards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Telas de celular (largura máxima de 768px) */
+/* Telas de celular (largura máxima de 768px) */
+@media (max-width: 768px) {
+    /* Ajustes para o container do menu (a div .back) */
+    .back {
+        display: flex;             /* Habilita o Flexbox */
+        flex-direction: row;       /* Coloca os itens em linha */
+        flex-wrap: wrap;           /* Permite a quebra de linha para os itens do menu */
+        justify-content: center;   /* Centraliza todos os itens do menu */
+        align-items: center;       /* Alinha os itens verticalmente */
+        height: auto;
+        padding: 10px;
+        margin: 0;
+    }
+
+    /* Estilo dos itens do menu dentro do .back */
+    .back .logo,
+    .back .login,
+    .back .registrar,
+    .back .como,
+    .back .conteudos,
+    .back .suporte {
+        font-size: 12px;           /* Reduz a fonte para caber mais itens */
+        margin: 5px 8px;           /* Reduz a margem entre os links */
+        white-space: nowrap;       /* Evita que o texto quebre em várias linhas */
+    }
+    
+    /* Ajustes para os títulos principais, que estão fora do .back */
+    .estuda, .revisao {
+        text-align: center;
+        margin: 10px 0;            /* Adiciona um espaço vertical */
+    }
+
+    /* Ajustes para o container dos botões (a div .botoes-container) */
+    .botoes-container {
+        display: flex;             /* Habilita o Flexbox no container dos botões */
+        flex-direction: row;       /* Alinha os botões lado a lado */
+        flex-wrap: wrap;           /* Permite quebra de linha se não houver espaço */
+        justify-content: center;   /* Centraliza os botões */
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    /* Estilo dos elementos filhos do .botoes-container */
+    .botoes-container > div,
+    .botoes-container > a {
+        width: 45%;                /* Cada botão ocupa quase metade do container */
+        margin: 0;                 /* Remove margens extras que causam problemas */
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Estilo específico para o link dentro da div do primeiro botão */
+    .botoes-container > div > a {
+        width: 100%;               /* Faz o link preencher o seu container pai */
+        display: block;            /* Transforma o link em um bloco para ocupar o espaço */
+    }
+    
+    /* Oculta as imagens */
+    .img {
+        display: none;
+    }
 }
