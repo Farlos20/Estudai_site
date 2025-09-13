@@ -80,3 +80,27 @@ def ingles_2():
 @app.route("/Educação_Fisica_2Ano")
 def Educação_Fisica_2():
     return render_template("2_Ano/ed_fisica_2ano.html")
+
+@app.route("/Artes_2Ano")
+def Artes_2():
+    return render_template("2_Ano/artes_2ano.html")
+
+@app.route("/Historia_2Ano")
+def Historia_2():
+    return render_template("2_Ano/historia_2ano.html")
+
+@app.route("/Geografia_2Ano")
+def Geografia_2():
+    return render_template("2_Ano/geografia_2ano.html")
+
+@app.route("/Biologia_2Ano")
+def Biologia_2():
+    return render_template("2_Ano/biologia_2ano.html")
+
+@app.route("/Fisica_2Ano")
+def Fisica_2():
+    return render_template("2_Ano/fisica_2ano.html")
+
+@app.route("/Quimica_2Ano")
+def Quimica_2():
+    return render_template("2_Ano/quimica_2ano.html")
