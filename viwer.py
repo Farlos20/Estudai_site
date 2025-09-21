@@ -104,3 +104,69 @@ def Fisica_2():
 @app.route("/Quimica_2Ano")
 def Quimica_2():
     return render_template("2_Ano/quimica_2ano.html")
+
+@app.route("/Matematica_2Ano")
+def Matematica_2():
+    return render_template("2_Ano/matematica_2ano.html")
+
+@app.route("/Sociologia_2Ano")
+def Sociologia_2():
+    return render_template("2_Ano/sociologia_2ano.html")
+
+@app.route("/Filosofia_2Ano")
+def Filosofia_2():
+    return render_template("2_Ano/filosofia_2ano.html")
+
+## 3 ANO
+
+@app.route("/conteudos_3ANO")
+def conteudos_3():
+    return render_template("3_ano.html")
+
+@app.route("/Portugues_3Ano")
+def Portugues_3():
+    return render_template("3_Ano/portugues_3ano.html")
+
+@app.route("/Ingles_3Ano")
+def Ingles_3():
+    return render_template("3_Ano/ingles_3ano.html")
+
+@app.route("/Educação_Fisica_3Ano")
+def Ed_Fisica_3():
+    return render_template("3_Ano/ed_fisica_3ano.html")
+
+@app.route("/Artes_3Ano")
+def Artes_3():
+    return render_template("3_Ano/artes_3ano.html")
+
+@app.route("/Matematica_3Ano")
+def Matematica_3():
+    return render_template("3_Ano/matematica_3ano.html")
+
+@app.route("/Historia_3Ano")
+def Historia_3():
+    return render_template("3_Ano/historia_3ano.html")
+
+@app.route("/Geografia_3Ano")
+def Geografia_3():
+    return render_template("3_Ano/geografia_3ano.html")
+
+@app.route("/Biologia_3Ano")
+def Biologia_3():
+    return render_template("3_Ano/biologia_3ano.html")
+
+@app.route("/Fisica_3Ano")
+def Fisica_3():
+    return render_template("3_Ano/fisica_3ano.html")
+
+@app.route("/Quimica_3Ano")
+def Quimica_3():
+    return render_template("3_Ano/quimica_3ano.html")
+
+@app.route("/Filosofia_3Ano")
+def Filosofia_3():
+    return render_template("3_Ano/filosofia_3ano.html")
+
+@app.route("/Sociologia_3Ano")
+def Sociologia_3():
+    return render_template("3_Ano/sociologia_3ano.html")
