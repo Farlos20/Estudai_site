@@ -197,6 +197,7 @@ a.contend:hover {
     justify-content: flex-start;
     gap: 20px;
     margin-top: 30px;
+    
 }
 
 .botaoANO {
@@ -387,6 +388,12 @@ h3 {
         height: auto;
         padding: 10px;
         margin: 10px auto;
+        display: flex;             /* Habilita o Flexbox */
+        flex-direction: row;       /* Coloca os itens em linha */
+        flex-wrap: wrap;           /* Permite a quebra de linha para os itens do menu */
+        justify-content: center;   /* Centraliza todos os itens do menu */
+        align-items: center;       /* Alinha os itens verticalmente */
+        height: auto;
     }
     .logo, .login, .registrar, .como, .conteudos, .suporte {
         font-size: 16px;
@@ -409,7 +416,7 @@ h3 {
     .botoes-containerC, .subject-buttons-container {
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
+        margin-left: 0px;
     }
     a.botaoMateria, .subject-button {
         width: 80%;
@@ -424,6 +431,10 @@ h3 {
 /* Telas de celular (largura máxima de 768px) */
 @media (max-width: 768px) {
     /* Ajustes para o container do menu (a div .back) */
+
+
+    
+    
     .back {
         display: flex;             /* Habilita o Flexbox */
         flex-direction: row;       /* Coloca os itens em linha */
@@ -445,6 +456,7 @@ h3 {
         font-size: 12px;           /* Reduz a fonte para caber mais itens */
         margin: 5px 8px;           /* Reduz a margem entre os links */
         white-space: nowrap;       /* Evita que o texto quebre em várias linhas */
+        
     }
     
     /* Ajustes para os títulos principais, que estão fora do .back */
@@ -453,32 +465,50 @@ h3 {
         margin: 10px 0;            /* Adiciona um espaço vertical */
     }
 
+    
+
     /* Ajustes para o container dos botões (a div .botoes-container) */
     .botoes-container {
-        display: flex;             /* Habilita o Flexbox no container dos botões */
-        flex-direction: row;       /* Alinha os botões lado a lado */
-        flex-wrap: wrap;           /* Permite quebra de linha se não houver espaço */
-        justify-content: center;   /* Centraliza os botões */
-        align-items: center;
-        gap: 10px;
-        width: 100%;
+        display: flex;
+        flex-direction: column;   /* Um embaixo do outro */
+        align-items: center;      /* Centraliza no meio */
+        gap: 15px;                /* Espaço entre os botões */
         margin: 20px auto;
+        width: 100%;
+        
+        
+    }
+
+    .botao, 
+    a.contend {
+        margin: 0;
+        margin-top: 250px;                /* Remove margens fixas */
+        width: 80%;               /* Faz ocupar boa parte da tela */
+        max-width: 280px;         /* Limita largura */
+        font-size: 18px;          /* Ajusta tamanho do texto */
+        text-align: center;       /* Centraliza conteúdo */
     }
 
     /* Estilo dos elementos filhos do .botoes-container */
     .botoes-container > div,
     .botoes-container > a {
-        width: 45%;                /* Cada botão ocupa quase metade do container */
-        margin: 0;                 /* Remove margens extras que causam problemas */
-        font-size: 16px;
+        width: 230px;              /* largura fixa */
+        
         text-align: center;
+        
+        
+        
     }
 
     /* Estilo específico para o link dentro da div do primeiro botão */
     .botoes-container > div > a {
         width: 100%;               /* Faz o link preencher o seu container pai */
         display: block;            /* Transforma o link em um bloco para ocupar o espaço */
-    }
+        
+    }   
+
+
+    
     
     /* Oculta as imagens */
     .img {
