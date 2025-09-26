@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="{{ url_for('static', filename='lg.ico') }}" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artes 1 Ano</title>
@@ -8,7 +9,9 @@
 </head>
 <body style="background: linear-gradient(to right, #ffffff, #c0bbbb);">
     <div class="back">
-        <a href="/" class="logo">LOGO</a> 
+        <a href="/">
+            <img src="{{ url_for('static', filename='logoE.png') }}" alt="Logo Estudaí" class="logo" width="60" height="70">
+        </a>
         <p class="login" >Login</p>
         <p class="registrar">Registar</p>
         <p class="como ">Como Funciona?</p>
@@ -23,14 +26,14 @@
 
     <div class="flashcards-container">
     <div class="flashcard">
-        <h3 style="margin-top: -5px;">1 - Arte como linguagem</h3>
+        <h3 style="margin-bottom: 5px;">1 - Arte como linguagem</h3>
         <p style="margin-top: 20px; font-size: 18px;">
            Considera a arte como um sistema de signos capaz de comunicar ideias, emoções e valores, tal como a linguagem verbal, mas por meio de recursos visuais, sonoros, corporais ou multimídia.
         </p>
     </div>
 
     <div class="flashcard">
-        <h3 style="margin-top: -5px;">2 - Gêneros literários clássicos</h3>
+        <h3 style="margin-bottom: 5px;">2 - Gêneros literários clássicos</h3>
         <p style="font-size: 17px;margin-top: 20px;">
             Estudo dos principais gêneros artísticos da tradição clássica - épico, lírico e dramático - e de como eles estruturaram as bases da literatura ocidental, influenciando formas artísticas posteriores.
 
@@ -38,14 +41,14 @@
     </div>
 
     <div class="flashcard">
-        <h3  style="margin-top: -10px;">3 -Renascimento artístico e cultural: épica e lírica de Luís de Camões</h3>
+        <h3  style="margin-top: -15px;">3 -Renascimento artístico e cultural: épica e lírica de Luís de Camões</h3>
         <p style="font-size: 18px;">
             Análise das produções de Camões, que exemplificam o ideal renascentista de valorização do homem, do equilíbrio formal e da retomada dos modelos clássicos, presentes na epopeia Os Lusíadas e em sua lírica.
         </p>
     </div>
 </div>
 
-<a style="width: 350px; padding: 5;margin-bottom: -20px;margin-top: 50px;" href="/conteudos"class="contend">VOLTAR A TELA</a>
+<a style="width: 350px; padding: 5;margin-bottom: 20px;margin-top: 50px;" href="/conteudos"class="contend">VOLTAR A TELA</a>
 
 
 

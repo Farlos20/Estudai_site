@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Estudaí{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+    
+</head>
+<body>
+    <!-- 🔹 Navbar igual em todas as páginas -->
+    <nav class="navbar">
+        <a href="{{ url_for('homepage') }}">Início</a>
+        
+    </nav>
+
+    <!-- 🔹 Área que muda de página para página -->
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- 🔹 Rodapé fixo -->
+    <footer>
+        <p>&copy; TODDO A LOGOO</p>
+    </footer>
+</body>
+</html>

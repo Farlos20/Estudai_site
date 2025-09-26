@@ -1,6 +1,7 @@
 
 html, body {
     overflow-x: hidden; /* esconde rolagem horizontal */
+    height: 100%; /* O body ocupa 100% da altura do viewport */
 }
 
 
@@ -112,6 +113,8 @@ p, h1 {
     margin-left: 60px;
 }
 
+
+
 .img {
     position: relative;
     margin-left: 630px;
@@ -171,7 +174,7 @@ a.contend {
     font-size: 30px;
     font-weight: bold;
     display: inline-block;
-    transition: transform 0.2s ease, color 0.2s ease;
+    transition: transform 0.2s ease, color 0.5s ease;
     font-weight: 900;
     
 }
@@ -485,6 +488,7 @@ h3 {
         margin: 20px auto;
         margin-left: -30px;
         width: 100%;
+        margin-top: 200px;
         
         
     }
@@ -492,7 +496,8 @@ h3 {
     .botao, 
     a.contend {
         margin: 0;
-                        /* Remove margens fixas */
+        margin-left: -8px;
+        margin-bottom: 5px;                /* Remove margens fixas */
         width: 80%;               /* Faz ocupar boa parte da tela */
         max-width: 280px;         /* Limita largura */
         font-size: 18px;          /* Ajusta tamanho do texto */

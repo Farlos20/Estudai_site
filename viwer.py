@@ -170,3 +170,7 @@ def Filosofia_3():
 @app.route("/Sociologia_3Ano")
 def Sociologia_3():
     return render_template("3_Ano/sociologia_3ano.html")
+
+@app.route("/A")
+def TST_3():
+    return render_template("test.html")

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="{{ url_for('static', filename='lg.ico') }}" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filosofia 1 Ano</title>
@@ -8,7 +9,9 @@
 </head>
 <body style="background: linear-gradient(to right, #ffffff, #c0bbbb);">
     <div class="back">
-        <a href="/" class="logo">LOGO</a> 
+        <a href="/">
+            <img src="{{ url_for('static', filename='logoE.png') }}" alt="Logo Estudaí" class="logo" width="60" height="70">
+        </a>
         <p class="login" >Login</p>
         <p class="registrar">Registar</p>
         <p class="como ">Como Funciona?</p>
