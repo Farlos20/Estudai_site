@@ -17,3 +17,7 @@ if __name__ == "__main__":
 #git add .
 #git commit -m "Descrição da alteração"
 #git push
+
+
+#doces, açai,lasanha, melzinho,filmes coreanos, nao muito meloso, musica internacional e um pouca de cada  menos forro e sertanejo
+
