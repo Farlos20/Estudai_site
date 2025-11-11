@@ -1,6 +1,7 @@
 
 html, body {
     overflow-x: hidden; /* esconde rolagem horizontal */
+    
     height: 100%; /* O body ocupa 100% da altura do viewport */
 }
 
@@ -382,6 +383,36 @@ h3 {
 
 /* Telas de tablet (largura máxima de 1024px) */
 @media (max-width: 1024px) {
+
+    .foto {
+        width: 200px;
+        height: 150px;
+    }
+
+    .f4 {
+    width: 300px;
+    height: 330px;
+    top: 20%;
+    left: -30%;
+    z-index: 1;
+}
+
+    .f2 {
+    width: 300px;
+    height: 200px;
+    left: -150px;
+    bottom: 0;
+    z-index: 2;
+    }
+
+    .f3 {
+    width: 180px;
+    height: 190px;
+    top: 120px;
+    left: -20px;
+    z-index: 3;
+    }
+
     .estuda {
         font-size: 60px;
         margin-left: 20px;
@@ -390,10 +421,7 @@ h3 {
         font-size: 30px;
         margin-left: 20px;
     }
-    .img {
-        /* A imagem pode ser escondida para priorizar o conteúdo em telas menores */
-        display: none;
-    }
+    
     .back {
         /* Coloca os itens em coluna */
         flex-direction: column;

@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Estudaí{% endblock %}</title>
+
+    <!-- CSS principal -->
     <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
-    
+
+    <!-- Fonte Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 🔹 Navbar igual em todas as páginas -->
-    <nav class="navbar">
-        <a href="{{ url_for('homepage') }}">Início</a>
-        
-    </nav>
+    <!-- 🔹 Nova Navbar -->
+    <div class="back">
+        <a href="{{ url_for('homepage') }}">
+            <img src="{{ url_for('static', filename='logoE.png') }}" 
+                 alt="Logo Estudaí" class="logo" width="60" height="70">
+        </a>
 
-    <!-- 🔹 Área que muda de página para página -->
+        <a style=" text-decoration: none; color: black; font: bold;font-size: 30px;" class="login" href="/">Login</a>
+        <a class="registrar" href="#">Registrar</a>
+        <a class="como" href="#">Como Funciona?</a>    
+        <a class="conteudos" href="#">Conteúdos</a>
+        <a class="suporte" href="#">Suporte</a>
+    </div>
+
+    <!-- 🔹 Conteúdo das páginas -->
     <main>
         {% block content %}{% endblock %}
     </main>
 
-    <!-- 🔹 Rodapé fixo -->
+    <!-- 🔹 Rodapé -->
     <footer>
-        <p>&copy; TODDO A LOGOO AA</p>
+        <p>&copy; 2025 Estudaí</p>
     </footer>
 </body>
 </html>
